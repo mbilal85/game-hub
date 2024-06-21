@@ -1,0 +1,15 @@
+import { Card, CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
+import { px } from "framer-motion";
+
+const GameCardSkeleton = () => {
+  return (
+    <Card width="230px" borderRadius={10} overflow="hidden">
+      <Skeleton height="200px" />
+      <CardBody>
+        <SkeletonText />
+      </CardBody>
+    </Card>
+  );
+};
+
+export default GameCardSkeleton;
