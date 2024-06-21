@@ -3,7 +3,7 @@ import { px } from "framer-motion";
 
 const GameCardSkeleton = () => {
   return (
-    <Card width="230px" borderRadius={10} overflow="hidden">
+    <Card>
       <Skeleton height="200px" />
       <CardBody>
         <SkeletonText />
